@@ -5,3 +5,4 @@ package-lock.json
 /sessions
 data.store.json
 database.json
+config.js
