@@ -19,6 +19,6 @@ var handler = async (m, {
 	}
 }
 handler.help = handler.command = ['igdl']
-handler.tags = ['instagram', 'downloader']
+handler.tags = ['downloader']
 
 module.exports = handler

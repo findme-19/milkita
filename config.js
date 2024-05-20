@@ -26,30 +26,30 @@ global.cache_used = 1000000000 // 1 GB in this example [Cached Limiter (if your 
 global.owner = [
 	//	['6281234288573'],
 	['212706611366'],
-	['6282331033919', 'aseli', true],
-	['6282256080304'],
+	['6282331033919'],
+	['6282256080304', 'Angga', true],
 	['6285751414996'],
 	['62882124301380']
 	//['6282188376948', 'Riin', false]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.cookie = {
-	bing: 'cokes', // join channel buat dapatin cookie bing chat
+	bing: '_U=1jM61nmbNhzKZQhMQssFiAvhiC_fDypAGmhxy1smoDzYza1IZl-UqhOKtkGkfKSok-cARievmSGeXy6Zi7ZD7PZmDzxJmJ4hBVlIWDZe0DUfAk9sUAhvVBjE-_jIbGk-ESCjD1nYDAw5qLqhEQLd_2ErpKzQ81IELowln7huSjPO_oz0ipTz9sZOdkcOUp3URYk5_KRFvdr6CFztOqU7heA', // join channel buat dapatin cookie bing chat
 	gemini: {
-		'__Secure-1PSID': 'cokes' // join channel buat cara dapatin cookie gemini
+		'__Secure-1PSID': 'g.a000iAihZ3e3StwrcpL2nGdu1E2wwc7SEJjmUsaho77an5d4ww1330Ey3g_w8A7jZiBUXCkR-gACgYKAc4SAQASFQHGX2MizjD66brOY-yOB83BH8xPKhoVAUF8yKprTVEMD3I0AvSdC4Hfj1Fp0076' // join channel buat cara dapatin cookie gemini
 	},
 	cai: "" // join channel buat cara dapatin token ce ai
 }
 global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.self = true // nganu
-global.packname = 'I ʜᴏᴘᴇ Yᴏᴜ\'ʀᴇ ғɪɴᴇ'
-global.author = '@x7||skizo'
-global.wm = '©skizo.tech'
+global.packname = ''
+global.author = ''
+global.wm = ''
 global.no_wallet = ''
-global.nomorown = '6282331033919'
-global.nomorbot = "" // nomer buat bot (login via kode)
-global.xznkey = 'apikeh' // chat atmin buat dapetin apikeynya skizo.tech/pricing
+global.nomorown = "6282256080304"
+global.nomorbot = "6285751414996" // nomer buat bot (login via kode)
+global.xznkey = 'wedhus11' // chat atmin buat dapetin apikeynya skizo.tech/pricing
 global.profil = fs.readFileSync("./src/profil.jpg")
 global.anunya = fs.readFileSync("./src/anunya.jpg")
 global.log = function log() {
