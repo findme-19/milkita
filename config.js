@@ -34,9 +34,9 @@ global.owner = [
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.cookie = {
-	bing: '_U=1jM61nmbNhzKZQhMQssFiAvhiC_fDypAGmhxy1smoDzYza1IZl-UqhOKtkGkfKSok-cARievmSGeXy6Zi7ZD7PZmDzxJmJ4hBVlIWDZe0DUfAk9sUAhvVBjE-_jIbGk-ESCjD1nYDAw5qLqhEQLd_2ErpKzQ81IELowln7huSjPO_oz0ipTz9sZOdkcOUp3URYk5_KRFvdr6CFztOqU7heA', // join channel buat dapatin cookie bing chat
+	bing: '', // join channel buat dapatin cookie bing chat
 	gemini: {
-		'__Secure-1PSID': 'g.a000iAihZ3e3StwrcpL2nGdu1E2wwc7SEJjmUsaho77an5d4ww1330Ey3g_w8A7jZiBUXCkR-gACgYKAc4SAQASFQHGX2MizjD66brOY-yOB83BH8xPKhoVAUF8yKprTVEMD3I0AvSdC4Hfj1Fp0076' // join channel buat cara dapatin cookie gemini
+		'__Secure-1PSID': '' // join channel buat cara dapatin cookie gemini
 	},
 	cai: "" // join channel buat cara dapatin token ce ai
 }
@@ -47,9 +47,9 @@ global.packname = ''
 global.author = ''
 global.wm = ''
 global.no_wallet = ''
-global.nomorown = "6282256080304"
-global.nomorbot = "6285751414996" // nomer buat bot (login via kode)
-global.xznkey = 'wedhus11' // chat atmin buat dapetin apikeynya skizo.tech/pricing
+global.nomorown = ""
+global.nomorbot = "" // nomer buat bot (login via kode)
+global.xznkey = '' // chat atmin buat dapetin apikeynya skizo.tech/pricing
 global.profil = fs.readFileSync("./src/profil.jpg")
 global.anunya = fs.readFileSync("./src/anunya.jpg")
 global.log = function log() {
