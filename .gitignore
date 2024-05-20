@@ -3,3 +3,6 @@
 package-lock.json
 /public/file
 /sessions
+data.store.json
+database.json
+config.js
