@@ -24,13 +24,7 @@ global.ram_usage = 60000000000 // 600 MB in this example [Ram Limiter (if your s
 global.cache_used = 1000000000 // 1 GB in this example [Cached Limiter (if your server ram is 1GB put 900MB in bytes, later the server will auto clear Cache before using 1GB Cached)] // work on VPS
 /*============= WAKTU =============*/
 global.owner = [
-	//	['6281234288573'],
-	['212706611366'],
-	['6282331033919'],
-	['6282256080304', 'Angga', true],
-	['6285751414996'],
-	['62882124301380']
-	//['6282188376948', 'Riin', false]
+	['628xxxxxxxxxx', 'YourName', true]
 	// [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.cookie = {
