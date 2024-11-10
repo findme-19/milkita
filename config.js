@@ -43,7 +43,7 @@ global.wm = ''
 global.no_wallet = ''
 global.nomorown = ""
 global.nomorbot = "" // nomer buat bot (login via kode)
-global.xznkey = '' // chat atmin buat dapetin apikeynya skizo.tech/pricing
+global.xznkey = '' // chat atmin buat dapetin apikeynya skizoasia.xyz/pricing
 global.profil = fs.readFileSync("./src/profil.jpg")
 global.anunya = fs.readFileSync("./src/anunya.jpg")
 global.log = function log() {
@@ -52,11 +52,11 @@ global.log = function log() {
 }
 global.APIs = { // API Prefix
 	// name: 'https://website'
-	xzn: 'https://skizo.tech/',
+	xzn: 'https://skizoasia.xyz/',
 }
 global.APIKeys = { // APIKey Here
 	// 'https://website': 'apikey'
-	'https://skizo.tech/': xznkey
+	'https://skizoasia.xyz/': xznkey
 }
 global.multiplier = 69
 // Function untuk menghitung keuntungan berdasarkan persentase

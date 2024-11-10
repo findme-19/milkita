@@ -18,7 +18,7 @@ export default {
 				teks += "* Character Id: " + yosh.external_id + "\n"
 				teks += "* Greeting: \n\n" + yosh.greeting + "\n\n"
 			}
-			teks += "\nPowered by skizo.tech"
+			teks += "\nPowered by skizoasia.xyz"
 			var {
 				id
 			} = await conn.reply(m.chat, teks, m)

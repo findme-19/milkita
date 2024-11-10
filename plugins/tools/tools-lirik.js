@@ -27,7 +27,7 @@ export default {
 				teks += "* Cover: " + Object.values(yosh.album_converart.shift())[0] + "\n\n"
 				teks += "> Read track : " + _p + "readtrack" + " " + yosh.track_id + "\n\n\n"
 			}
-			teks += "\nPowered by skizo.tech"
+			teks += "\nPowered by skizoasia.xyz"
 			m.reply(teks)
 		} else {
 			c = await axios.post(API('xzn', 'api/read-track', {}, 'apikey'), {
@@ -40,7 +40,7 @@ export default {
 			pros += "* Track Name: " + c.data.matcher_track.body.track_name + "\n"
 			pros += "* Copyright: " + c.data.body.lyrics_copyright + "\n"
 			pros += "* Lyrics: \n\n" + c.data.body.lyrics_body + "\n\n"
-			pros += "\nPowered by skizo.tech"
+			pros += "\nPowered by skizoasia.xyz"
 			m.reply(pros)
 		}
 	}

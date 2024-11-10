@@ -16,7 +16,7 @@ export default {
 				url: await uploadFile(img)
 			})).data
 			if (response.status !== 200) return m.reply(response)
-			conn.reply(m.chat, response.prompt + "\n\npowered by skizo.tech", m)
+			conn.reply(m.chat, response.prompt + "\n\npowered by skizoasia.xyz", m)
 			log(response)
 		} catch (e) {
 			log(e);

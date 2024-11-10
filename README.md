@@ -5,7 +5,7 @@ emoji: 🚀
 colorFrom: yellow
 colorTo: green
 ---
-## Milkita Bot Powered By [skizo.tech](https://skizo.tech)
+## Milkita Bot Powered By [skizoasia.xyz](https://skizoasia.xyz)
 
 ---------
 
@@ -53,9 +53,9 @@ colorTo: green
 ---------
 
 ## Information
-> This Bot is Powered by [SKIZO API](https://skizo.tech)
+> This Bot is Powered by [SKIZO API](https://skizoasia.xyz)
 
-> Get Apikey On [skizo](https://skizo.tech/pricing)
+> Get Apikey On [skizo](https://skizoasia.xyz/pricing)
 
 ---------
 

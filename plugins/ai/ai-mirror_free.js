@@ -18,7 +18,7 @@ export default {
 				filter: text
 			}))
 			if (!response.data.generated_image_addresses) return m.reply(response.data)
-			conn.sendFile(m.chat, response.data.generated_image_addresses[0], "", " powered by skizo.tech", m)
+			conn.sendFile(m.chat, response.data.generated_image_addresses[0], "", " powered by skizoasia.xyz", m)
 			log(response.data)
 		} catch (e) {
 			log(e);

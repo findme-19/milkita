@@ -10,7 +10,7 @@ var defaultMenu = {
 	header: '╭── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╮\n┊ .·:*¨ ✘ %category ✘ ¨*:·.',
 	body: '┊ ⿻ %cmd %islimit %isPremium',
 	footer: '╰── ⋅ ⋅ ── ✩ ── ⋅ ⋅ ──╯࿐️\n',
-	after: `Powered By https://skizo.tech`,
+	after: `Powered By https://skizoasia.xyz`,
 }
 var handler = async (m, {
 	conn,

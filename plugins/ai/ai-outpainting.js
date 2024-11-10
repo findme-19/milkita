@@ -18,7 +18,7 @@ export default {
 				responseType: 'arraybuffer'
 			}))
 			if (!/image/.test(response.headers['content-type'])) return m.reply(JSON.parse(response.data.toString()))
-			conn.sendFile(m.chat, response.data, "", " powered by skizo.tech", m)
+			conn.sendFile(m.chat, response.data, "", " powered by skizoasia.xyz", m)
 			log(response.data)
 		} catch (e) {
 			log(e);
